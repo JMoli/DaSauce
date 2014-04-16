@@ -25,7 +25,6 @@ for file in files:
 		full = mypath + '\\' + file
 		write_txt(full)	
 		
-print total
 
 for x in range(int(min(total, key=int)), int(max(total, key=int)) + 1):
 	print ("{0} occurred {1} times which is {2}% of total".format(x, total.count(str(x)), (float(total.count(str(x))) / ( float(len(total)))) * 100 ))

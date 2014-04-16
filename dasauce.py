@@ -1,8 +1,6 @@
-from os import listdir
 import csv
 import sys
 import os
-import os.path
 import datetime
 
 total = []
